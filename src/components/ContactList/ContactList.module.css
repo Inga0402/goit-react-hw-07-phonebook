@@ -1,0 +1,25 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 15px;
+}
+.name {
+  margin-right: 30px;
+}
+.namber {
+  font-style: italic;
+}
+.btn {
+  width: 90px;
+  margin-left: 15px;
+  padding: 4px;
+  color: rgb(239, 220, 245);
+  background-color: rgb(223, 35, 223);
+  border-radius: 15px;
+  border: none;
+  outline: rgb(223, 35, 223);
+}
+.btn:hover {
+  transform: scale(1.08);
+}
